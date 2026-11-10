@@ -1,0 +1,18 @@
+title: Kesa
+description: Documentation, privacy policies and licenses for Kesa browser extensions.
+theme: minima
+# The site is served from https://kesa-md.github.io/docs/
+baseurl: /docs
+url: https://kesa-md.github.io
+
+# One entry per extension; the home page lists these.
+extensions:
+  - name: Kesa Video Tracker
+    path: /kesa-video-tracker/
+    summary: Counts the short and long videos you watch and warns you when you pass your daily limit.
+
+header_pages:
+  - kesa-video-tracker/index.md
+
+exclude:
+  - README.md
