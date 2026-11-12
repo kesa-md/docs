@@ -43,6 +43,36 @@ Click the extension icon in the toolbar to open the popup:
 - **Scoreboard:** a calendar of the last 20 weeks. Each day shows the icon of the site you watched most, and brighter tiles mean more videos. A red ring marks days over a limit.
 - **Summary:** averages for the last 7 and 30 days, all-time totals, total watch time, and how many days went over a limit.
 
+## Streaks and achievements
+
+The extension keeps score, and it isn't always kind about it.
+
+- **Streak card:** the popup shows your current streak. Days in a row over your limit give you a hot streak ("3-day streak over the limit. Impressive commitment to the wrong goal."). Days in a row under it give you a clean streak. The banner mentions your hot streak too. Streaks need at least one daily limit.
+- **Achievements:** 17 badges, shown in the popup. Hover or focus a badge to see what it takes, or the comment you earned. Locked badges show your progress.
+- **Pop-ups:** when you unlock an achievement, a small card appears in the corner of the page for a few seconds. You can turn these off in Settings.
+
+| Badge | How to unlock |
+|---|---|
+| 🎬 It Begins | Watch your first video |
+| 💯 Hundred Club | Watch 100 videos |
+| 🧟 Thousand-Yard Stare | Watch 1,000 videos |
+| 👍 Thumb Athlete | Watch 1,000 short videos |
+| 🥔 Couch Potato | Watch 10 hours of video |
+| 🛋️ Couch Archaeologist | Watch 100 hours of video |
+| 🏆 Lifetime Achievement | Watch 1,000 hours of video |
+| 🏃 Marathon | Watch 100 videos in one day |
+| 🌀 Shorts-aholic | Watch 50 short videos in one day |
+| 🚨 Limit Breaker | Go over your daily limit once |
+| 🔁 Repeat Offender | Go over your limit on 10 days |
+| 🔥 Hot Streak | Go over your limit 3 days in a row |
+| 🌋 Unstoppable | Go over your limit 7 days in a row |
+| 🦉 Night Owl | Watch 10 videos between midnight and 5 am |
+| 🌍 Grand Tour | Watch YouTube, TikTok and Instagram on the same day |
+| 🧘 Monk Mode | Stay under your limit 7 days in a row |
+| 🌱 Touched Grass | Stay under your limit 30 days in a row |
+
+Achievements and streaks are worked out from your daily statistics, so history from before an update counts too. Deleting all statistics in Settings also resets achievements.
+
 ## Settings
 
 Open Settings from the popup to change:
@@ -51,6 +81,7 @@ Open Settings from the popup to change:
 - how many seconds a video must play before it counts
 - which sites are tracked
 - whether the banner pauses the video
+- whether achievement pop-ups appear
 - debug logging, for troubleshooting
 
 You can also export your statistics as a JSON file, reset today's counts, or delete all statistics.

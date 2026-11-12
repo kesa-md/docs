@@ -4,7 +4,7 @@ title: Kesa Video Tracker privacy policy
 permalink: /kesa-video-tracker/privacy/
 ---
 
-Effective date: November 10, 2026
+Effective date: November 12, 2026
 
 Kesa Video Tracker is a browser extension that counts the videos you watch. This policy explains what information it handles and what happens to it.
 
@@ -16,7 +16,8 @@ All information stays in your browser. The extension does not send any informati
 
 The extension stores the following in your browser's local extension storage (`storage.local`):
 
-- **Daily statistics:** for each day, how many short and long videos you watched, your watch time, and how many videos came from each supported site.
+- **Daily statistics:** for each day, how many short and long videos you watched, your watch time, how many videos came from each supported site, and how many were watched between midnight and 5 am (for the Night Owl achievement).
+- **Achievements:** which achievements you have unlocked, and on which date.
 - **Today's video IDs:** the identifiers of videos counted today, such as a YouTube video ID, so the same video isn't counted twice. For some TikTok and Instagram videos, the identifier is the address of the video file. Only the current day's list is kept; it is replaced when a new day starts.
 - **Your settings:** your limits, counting times, and the sites you chose to track.
 - **Banner choice:** the date on which you chose "Don't show again today".
@@ -39,7 +40,7 @@ The extension doesn't share, sell, or transfer any information. Nothing leaves y
 
 ## Deleting your information
 
-- To delete all statistics, open the extension's Settings and click **Delete all statistics**.
+- To delete all statistics and achievements, open the extension's Settings and click **Delete all statistics**.
 - To reset only today's counts, click **Reset today**.
 - When you uninstall the extension, the browser deletes all of its stored information.
 
