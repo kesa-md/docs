@@ -26,13 +26,19 @@ Kesa Video Tracker counts the short and long videos you watch, shows your statis
 
 ## The daily limit banner
 
-When you watch more videos in a day than your limit, a full-screen banner appears over the video and pauses it. You can choose:
+When you watch more videos in a day than your limit, or more minutes of video, a full-screen banner appears over the video and pauses it. You can choose:
 
 - **Close this tab**
 - **Keep watching**: the banner appears again after the next video.
 - **Don't show again today**: no more banners until tomorrow.
 
-You can set three limits in Settings: all videos, short videos only, and long videos only. A limit of 0 turns it off. By default the banner appears when you watch more than 30 videos in a day.
+You can set four limits in Settings:
+
+- **All videos**: default 30 a day.
+- **Short videos only** and **Long videos only**: off by default.
+- **Watch time per day, minutes**: default 30. This counts the time videos actually play on all tracked sites. When you pass it in the middle of a video, the banner appears right away. If you keep watching, it comes back after every 10 more minutes and on the next video.
+
+A limit of 0 turns it off.
 
 ## Statistics
 
@@ -75,7 +81,7 @@ Achievements and streaks are worked out from your daily statistics, so history f
 
 ## Settings
 
-Open Settings from the popup to change:
+Open Settings from the popup's **Settings** link, or in Edge from `edge://extensions` → **Kesa Video Tracker** → **Details** → **Extension options**. You can also right-click the toolbar icon and choose **Extension options**. There you can change:
 
 - the daily limits
 - how many seconds a video must play before it counts
