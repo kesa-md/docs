@@ -45,7 +45,7 @@ A limit of 0 turns it off.
 Click the extension icon in the toolbar to open the popup:
 
 - **Today:** short, long and total videos, with watch time, and progress toward each limit.
-- **Last 14 days:** a chart of videos per day, split into short and long. Hover a day for details, or open the table view.
+- **Last 14 days:** a chart of watch time per day, split into short and long videos, with a dashed line at your watch time limit. Switch it to **Videos** to see counts instead; the popup remembers your choice. Hover a day for details, or open the table view.
 - **Scoreboard:** a calendar of the last 20 weeks. Each day shows the icon of the site you watched most, and brighter tiles mean more videos. A red ring marks days over a limit.
 - **Summary:** averages for the last 7 and 30 days, all-time totals, total watch time, and how many days went over a limit.
 
