@@ -40,6 +40,16 @@ You can set four limits in Settings:
 
 A limit of 0 turns it off.
 
+## Blocking short videos
+
+To stop short videos altogether, open Settings and use **Block short videos**. There's one switch for each site:
+
+- **Block YouTube Shorts**: Shorts pages are blocked. Regular YouTube videos keep working.
+- **Block TikTok**: all TikTok videos are blocked.
+- **Block Instagram Reels**: the Reels pages are blocked.
+
+A blocked video is paused straight away and covered by a "blocked" screen with **Go back** and **Close this tab** buttons. Blocked videos don't count toward your statistics. Turning a switch off lifts the block immediately, without reloading the page.
+
 ## Statistics
 
 Click the extension icon in the toolbar to open the popup:
@@ -86,6 +96,7 @@ Open Settings from the popup's **Settings** link, or in Edge from `edge://extens
 - the daily limits
 - how many seconds a video must play before it counts
 - which sites are tracked
+- which short videos are blocked
 - whether the banner pauses the video
 - whether achievement pop-ups appear
 - debug logging, for troubleshooting
